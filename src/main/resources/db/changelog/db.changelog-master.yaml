@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/create-person-table.yaml
+  - include:
+      file: db/changelog/changeset/create-book-table.yaml
+  - include:
+      file: db/changelog/changeset/insertions/insert-into-person.sql
+  - include:
+      file: db/changelog/changeset/insertions/insert-into-book.sql
